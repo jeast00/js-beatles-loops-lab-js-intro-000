@@ -29,7 +29,11 @@ function iLoveTheBeatles(num) {
   }
 
   do {
-    array.push(`$I love the Beatles!`);
+    if (num > 15) {
+      array.push(`I love the Beatles!`);
+    }else {
+    array.push(`I love the Beatles!`);
+  }
   } while (incrementVariable() < num);
   return array;
 }
