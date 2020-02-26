@@ -14,4 +14,5 @@ function johnLennonFacts(facts) {
   while (facts) {
     array.push(`${facts}!!!`);
   }
+  return array;
 }
