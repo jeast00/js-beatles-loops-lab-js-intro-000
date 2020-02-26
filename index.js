@@ -14,7 +14,6 @@ function johnLennonFacts(facts) {
     var array = [];
     array.push(`${facts}!!!`);
     facts.length--;
-    array = [];
     return array;
   }
 }
